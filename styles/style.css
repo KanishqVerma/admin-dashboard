@@ -176,8 +176,50 @@ body{
 }
 
 .card-container{
-    background-color: white;
     flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: minmax(150px, 1fr);
+    gap: 1rem;
+    margin: 1.5rem;
+}
+
+.card{
+    background-color: var(--background-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1),
+    -6px 0px 0px #f0b429;
+    padding: 1rem;
+    margin: 0px 0.2rem;
+}
+
+.card h3{
+    font-size: 1rem;
+}
+
+.card p{
+    font-size: 0.75rem;
+    color: rgb(112, 112, 112);
+}
+
+.card .icons{
+    flex: 0 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.card p{
+    flex: 1;
+    padding: 1rem 0 1rem 0;
+}
+
+.card svg{
+    height: 1.25rem;
+    width: 1.25rem;
 }
 
 .announcements > p{
