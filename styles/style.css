@@ -227,6 +227,32 @@ body{
     padding: 1rem 0 0 1rem;
 }
 
+.announcement-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--background-white);
+    padding: 2rem;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+    border-radius: 8px;
+    font-size: 0.75rem;
+}
+
+.announcement-card p{
+    font-size: 0.6rem;
+    color: rgb(112, 112, 112);
+}
+
+.announcement-card h3{
+    margin: 0.2rem 0;
+}
+
+.announcement-card hr{
+    margin: 0.8rem 0;
+    color: rgb(112, 112, 112);
+}
+
 .trending > p{
     font-weight: bold;
     padding: 1rem 0 0 1rem;
