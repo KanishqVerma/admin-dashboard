@@ -140,6 +140,10 @@ body{
     padding-top: 1rem;
 }
 
+.header-section-2-left p{
+    padding-left: 1rem;
+}
+
 .header-section-2-right{
     padding: 0px 8px;
 }
@@ -237,6 +241,8 @@ body{
     margin-top: 1.5rem;
     border-radius: 8px;
     font-size: 0.75rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .announcement-card p{
@@ -256,4 +262,33 @@ body{
 .trending > p{
     font-weight: bold;
     padding: 1rem 0 0 1rem;
+}
+
+.trending-card{
+    background-color: var(--background-white);
+    border-radius: 8px;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+    padding: 1rem 1rem 1rem 0;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.trending-card img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    justify-self: center;
+}
+
+.trending-card p{
+    font-size: 0.75rem;
+    color: rgb(112, 112, 112);
+}
+
+.trending-card .social-handle{
+    color: black;
 }
